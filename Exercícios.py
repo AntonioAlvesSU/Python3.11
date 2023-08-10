@@ -282,11 +282,46 @@ print(lista)
 [1, ‘a’, ‘b’, 4, 5]
 
 Exemplo sem erro
->>> lista = [1, 2, 3, 4, 5]
->>> lista[0::2] = [‘x’, ‘y’, ‘z’]
->>> lista
+#>>> lista = [1, 2, 3, 4, 5]
+#>>> lista[0::2] = [‘x’, ‘y’, ‘z’]
+#>>> lista
 [‘x’, 2, ‘y’, 4, ‘z’] 
- """
+
+ #Tupla, diferença básica entre tupla e lista são os parenteses
+tupla = (1,2,3,4,5,5,6,7,89)
+print(f'{type(tupla)} e a\n tupla:{tupla}')
+
+<class 'tuple'> e a
+ tupla:(1, 2, 3, 4, 5, 5, 6, 7, 89)
+
+NewTupla = tupla + (100, 95, 99)
+print(f'{tupla} e a nova \ntupla:{NewTupla}')
+
+<class 'tuple'> e a
+ tupla:(1, 2, 3, 4, 5, 5, 6, 7, 89)
+(1, 2, 3, 4, 5, 5, 6, 7, 89) e a nova 
+tupla:(1, 2, 3, 4, 5, 5, 6, 7, 89, 100, 95, 99)
+
+tupla = (1,2,3,4,5,5,6,7,89)
+print(tupla)
+#convertendo tupla em lista
+lista = list(tupla)
+print(lista)
+print(type(lista))
+#convertendo lista em tupla
+tupla = tuple(lista)
+print(type(tupla))
+(1, 2, 3, 4, 5, 5, 6, 7, 89)
+[1, 2, 3, 4, 5, 5, 6, 7, 89]
+<class 'list'>
+<class 'tuple'>
+"""
+
+
+
+
+
+ 
  
 
 
