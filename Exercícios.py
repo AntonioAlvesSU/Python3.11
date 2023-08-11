@@ -315,17 +315,174 @@ print(type(tupla))
 [1, 2, 3, 4, 5, 5, 6, 7, 89]
 <class 'list'>
 <class 'tuple'>
+
+tupla = (1,2,3,4,5,5,6,7,89)
+print(tupla)
+print(type(tupla))
+tupla1 = 9, 8, 7, 6, 5, 4,
+print(tupla1)
+print(type(tupla1))
+
+tupla2 = (2) # nao e uma tupla
+print(tupla2)
+print(type(tupla2))
+
+tupla3 = (4,)
+print(tupla3)
+print(type(tupla3))
+
+tupla4 = 5,
+print(tupla4)
+print(type(tupla))
+res:
+y
+(1, 2, 3, 4, 5, 5, 6, 7, 89)
+PS C:\Informinas\meus\python> & C:/Users/Informinas/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Informinas/meus/python/Exercícios.py
+(1, 2, 3, 4, 5, 5, 6, 7, 89)
+PS C:\Informinas\meus\python> & C:/Users/Informinas/AppData/Local/Microsoft/WindowsApps/python3.11.exe c:/Informinas/meus/python/Exercícios.py
+(1, 2, 3, 4, 5, 5, 6, 7, 89)
+<class 'tuple'>
+(9, 8, 7, 6, 5, 4)
+<class 'tuple'>
+2
+<class 'int'>
+(4,)
+<class 'tuple'>
+(5,)
+<class 'tuple'>    
+
+tupla = tuple(range(12))
+print(tupla)
+(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+#Desenpacotando a tupla:
+tupla =('Informinas/AppData/', 'Microsoft/WindowsApps/') 
+escola, curso =tupla
+print(escola)
+print(curso)
+Informinas/AppData/
+Microsoft/WindowsApps/
+#Adiçao e remoçao em tuplas nao existem , por serem imutpaveis
+#so pra valores interios ou reais
+tupla = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+print(sum(tupla))
+print(max(tupla))
+print(min(tupla))
+print(len(tupla))
+res:
+66
+11
+0
+12 
+
+#Concatenaçao de tupla
+tupla = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+tupla1 = (1,2,3,4,5,5,6,7,89)  
+print(tupla + tupla1)
+print(tupla)
+print(tupla1)
+res:
+(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 5, 6, 7, 89)
+(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+(1, 2, 3, 4, 5, 5, 6, 7, 89)    
+
+#tuplas sao imutaveis mas podemos subescrer seus valores
+tupla = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+tupla1 = (1,2,3,4,5,5,6,7,89) 
+tupla1 = tupla +tupla1
+print(tupla1)
+res:
+(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1, 2, 3, 4, 5, 5, 6, 7, 89)    
+
+tupla = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+tupla1 = (1,2,3,4,5,5,6,7,89) 
+print(2 in tupla)
+print(15 in tupla)
+res:
+True
+False
+  
+tupla = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)
+
+for n in tupla:
+    print(n)
+
+for indice, valor in enumerate(tupla):
+    print(indice, valor)
+    
+res:
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+0 0
+1 1
+2 2
+3 3
+4 4
+5 5
+6 6
+7 7
+8 8
+9 9
+10 10
+11 11        
+    
+tupla =tuple('InforminasAppDataMicrosoftWindowsApps') 
+print(tupla.count('i'))
+print(tupla)
+tupla1 = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,3, 4, 5, 6,)
+print(tupla1.count('4'))
+
+#devemos utilizar tupla sempre que nao precisarmos mudar elementos de uma coleçao 
+ex.: meses do ano 
+
+meses =('janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro')
+#acesso a elementos pelos indces
+print(meses[5])
+
+#iterando 
+i = 0
+
+while i < len(meses):
+    print(meses[i])
+    i = i + 1
+res:
+junho
+janeiro
+fevereiro
+março
+abril
+maio
+junho
+julho
+agosto
+setembro
+outubro
+novembro
+dezembro        
+
+meses =('janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro')
+print(meses.index('junho'))
+#res: 5   
+print(meses.index('junho', 2)) 
+#res: 5   
+
+ptint(meses(5:11))
+ptint(meses(5:))
 """
-
-
-
-
-
- 
- 
-
-
-
+tupla1 = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,3, 4, 5, 6,)
+outra = (100,200,300,400)
+tupla2 = tupla1 + outra
+print(tupla1)
+print(tupla2)
 
 
 
