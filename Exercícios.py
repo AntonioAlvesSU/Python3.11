@@ -483,11 +483,17 @@ outra = (100,200,300,400)
 tupla2 = tupla1 + outra
 print(tupla1)
 print(tupla2)
-"""
+
 tupla = tuple(range(10))
 print(tupla )
 tupla1 = tuple(range(12))
 print(tupla1)
+res:
+(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)    
+"""
+
+
 
 
 
