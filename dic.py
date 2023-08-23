@@ -133,7 +133,7 @@ novo.add(4)
 
 print(novo)
 print(s)
-''' 
+
 # Forma 2 - Shallow Copy
 s = {1, 2, 3}
 novo = s
@@ -147,3 +147,37 @@ print(s)
 
 s.clear()
 print(s)
+'''
+
+estudantes_python = {'Marcos', 'Patricia', 'Ellen', 'Pedro', 'Julia', 'Guilherme'}
+estudantes_java = {'Fernando', 'Gustavo', 'Julia', 'Ana', 'Patricia'}
+
+
+# Precisamos gerar um conjunto com nomes de estudantes únicos
+
+# Forma 1 - Utilizando union
+
+unicos1 = estudantes_python.union(estudantes_java)
+print(unicos1)
+#{'Gustavo', 'Ana', 'Pedro', 'Guilherme', 'Marcos', 'Ellen', 'Patricia', 'Julia', 'Fernando'}
+unicos1 = estudantes_python | estudantes_java
+print(unicos1)
+#{'Gustavo', 'Ana', 'Pedro', 'Guilherme', 'Marcos', 'Ellen', 'Patricia', 'Julia', 'Fernando'}
+unicos1 = estudantes_python.difference(estudantes_java) 
+print(unicos1)
+#{'Guilherme', 'Marcos', 'Ellen', 'Pedro'}
+unicos1 = estudantes_java.difference(estudantes_python)
+print(unicos1)
+#{'Fernando', 'Gustavo', 'Ana'}
+unicos1 = estudantes_python & estudantes_java
+print(unicos1)
+#{'Julia', 'Patricia'}
+unicos1 =  estudantes_java & estudantes_python 
+print(unicos1)
+#{'Julia', 'Patricia'}
+s = {1, 2, 3, 4, 5, 6}
+
+print(sum(s))
+print(max(s))
+print(min(s))
+print(len(s))
