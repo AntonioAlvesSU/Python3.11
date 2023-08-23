@@ -147,7 +147,7 @@ print(s)
 
 s.clear()
 print(s)
-'''
+
 
 estudantes_python = {'Marcos', 'Patricia', 'Ellen', 'Pedro', 'Julia', 'Guilherme'}
 estudantes_java = {'Fernando', 'Gustavo', 'Julia', 'Ana', 'Patricia'}
@@ -181,3 +181,38 @@ print(sum(s))
 print(max(s))
 print(min(s))
 print(len(s))
+""
+21
+6
+1
+6
+"""
+'''
+from collections import Counter
+# Podemos utilizar qualquer iterável, aqui usamos uma Lista
+lista = [1, 1, 1, 2, 2, 3, 3, 3, 3, 1, 1, 2, 2, 4, 4, 4, 5, 5, 5, 5, 3, 45, 45, 66, 66, 43, 34]
+res = Counter(lista)
+print(res)
+print(type(res))
+#Counter({1: 5, 3: 5, 2: 4, 5: 4, 4: 3, 45: 2, 66: 2, 43: 1, 34: 1})
+#<class 'collections.Counter'>
+
+texto = """A Wikipédia é um projeto de enciclopédia colaborativa, universal e multilíngue estabelecido na internet 
+sob o princípio wiki. Tem como propósito fornecer um conteúdo livre, objetivo e verificável​​, que todos possam editar 
+e melhorar. O projeto é definido pelos princípios fundadores. O conteúdo é disponibilizado sob a licença Creative 
+Commons BY-SA e pode ser copiado e reutilizado sob a mesma licença — mesmo para fins comerciais — desde que 
+respeitando os termos e condições de uso. """
+
+palavras = texto.split() # dividiu o texto em palavras
+print(palavras)
+resu = Counter(palavras)
+print(resu)
+"""
+['A', 'Wikipédia', 'é', 'um', 'projeto', 'de', 'enciclopédia', 'colaborativa,', 'universal', 'e', 'multilíngue', 'estabelecido', 'na', 'internet', 'sob', 'o', 'princípio', 'wiki.', 'Tem', 'como', 'propósito', 'fornecer', 'um', 'conteúdo', 'livre,', 'objetivo', 'e', 'verificável\u200b\u200b,', 'que', 'todos', 'possam', 'editar', 'e', 'melhorar.', 'O', 'projeto', 'é', 'definido', 'pelos', 'princípios', 'fundadores.', 'O', 'conteúdo', 'é', 'disponibilizado', 'sob', 'a', 'licença', 'Creative', 'Commons', 'BY-SA', 'e', 'pode', 'ser', 'copiado', 'e', 'reutilizado', 'sob', 'a', 'mesma', 'licença', '—', 'mesmo', 'para', 'fins', 'comerciais', '—', 'desde', 'que', 'respeitando', 'os', 'termos', 'e', 'condições', 'de', 'uso.']
+Counter({'e': 6, 'é': 3, 'sob': 3, 'um': 2, 'projeto': 2, 'de': 2, 'conteúdo': 2, 'que': 2, 'O': 2, 'a': 2, 'licença': 2, '—': 2, 'A': 1, 'Wikipédia': 1, 'enciclopédia': 1, 'colaborativa,': 1, 'universal': 1, 'multilíngue': 1, 'estabelecido': 1, 'na': 1, 'internet': 1, 'o': 1, 'princípio': 1, 'wiki.': 1, 'Tem': 1, 'como': 1, 'propósito': 1, 'fornecer': 1, 'livre,': 1, 'objetivo': 1, 'verificável\u200b\u200b,': 1, 'todos': 1, 'possam': 1, 'editar': 1, 'melhorar.': 1, 'definido': 1, 'pelos': 1, 'princípios': 1, 'fundadores.': 1, 'disponibilizado': 1, 'Creative': 1, 'Commons': 1, 'BY-SA': 1, 'pode': 1, 'ser': 1, 'copiado': 1, 'reutilizado': 1, 'mesma': 1, 'mesmo': 1, 'para': 1, 'fins': 1, 'comerciais': 1, 'desde': 1, 'respeitando': 1, 'os': 1, 'termos': 1, 'condições': 1, 'uso.': 1})
+"""
+print(resu.most_common(5))
+#[('e', 6), ('é', 3), ('sob', 3), ('um', 2), ('projeto', 2)]
+print(dir(resu))
+
+
