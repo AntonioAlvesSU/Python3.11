@@ -187,7 +187,7 @@ print(len(s))
 1
 6
 """
-'''
+
 from collections import Counter
 # Podemos utilizar qualquer iterável, aqui usamos uma Lista
 lista = [1, 1, 1, 2, 2, 3, 3, 3, 3, 1, 1, 2, 2, 4, 4, 4, 5, 5, 5, 5, 3, 45, 45, 66, 66, 43, 34]
@@ -215,4 +215,49 @@ print(resu.most_common(5))
 #[('e', 6), ('é', 3), ('sob', 3), ('um', 2), ('projeto', 2)]
 print(dir(resu))
 
+from collections import defaultdict
+dicionatio = defaultdict(lambda : 0)
 
+dicionario = {'curso': 'Programação em Python: Essencial'}
+
+print(dicionario)
+# {'curso': 'Programação em Python: Essencial'}
+print(dicionario['curso'])
+#Programação em Python: Essencial
+print(dicionario['outro'])  
+#Traceback (most recent call last):
+#File "c:\Informinas\meus\python\dic.py", line 224, in <module>
+#print(dicionario['outro'])  # ??? KeyError
+'''
+# Em um dicionário, a ordem de inserção dos elementos não é garantida.
+dicionario = {'a': 1, 'b': 4, 'c': 5, 'd': 2, 'e': 3}
+
+for chave, valor in dicionario.items():
+    print(f'chave={chave}:valor={valor}')
+"""
+chave=a:valor=1
+chave=b:valor=4
+chave=c:valor=5
+chave=d:valor=2
+chave=e:valor=3
+"""
+from collections import OrderedDict
+dic1 =  {'a': 1, 'b': 2}
+dict2 = {'b': 2, 'a': 1}
+print(dic1==dict2)
+#True
+
+dic1 = OrderedDict ({'a': 1, 'b': 2})
+dict2 =OrderedDict({'b': 2, 'a': 1})
+print(dic1==dict2)
+#False
+
+dicionario = OrderedDict({'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5})
+for chave, valor in dicionario.items():
+    print(f'chave={chave}: valor={valor}')
+
+
+#print(dir(dic1))
+"""
+    ['__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getstate__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__ior__', '__iter__', '__le__', '__len__', '__lt__', '__ne__', '__new__', '__or__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__ror__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'move_to_end', 'pop', 'popitem', 'setdefault', 'update', 'values']
+"""
