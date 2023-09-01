@@ -1,0 +1,64 @@
+
+
+def triangulo(medida1, medida2, medida3):
+
+    if medida1 > 0 and medida2 > 0 and medida3 > 0:
+    
+        if medida1 <= (medida2 + medida3):
+        
+            if medida2 <= (medida1 + medida3):
+            
+                if medida3 <=(medida1 + medida2):
+                
+                    return "os lados formam um triângulo"
+                    
+        return "Os lados não formam um triangulo"
+        
+    return "Os valores são menores que 0"
+
+def tipo_triangulo(medida1, medida2, medida3):
+    
+    retorno = triangulo(medida1, medida2, medida3)
+    
+    if retorno.lower() == "Os lados formam um triangulo":
+        
+        if medida1 == medida2 == medida3:
+            return "Este é um triangulo Equilátero"
+        
+        elif((medida1 == medida2) and (medida2 != medida3)) or ((medida2 == medida3) and (medida3 != medida1)):
+            return 'Este trinagulo é isósceles'
+        
+        return "Este triangulo é escaleno"
+    
+    return "Estes  valores são inválidos"
+
+medid1 = float(input('Entre com a primeira medida: '))
+medid2 = float(input('Entre com a segunda medida: '))
+medid3 = float(input('Entre com a terceira medida: '))
+
+print(f'\n {triangulo(medid1, medid2, medid3)}')
+print(f'\n {tipo_triangulo(medid1, medid2, medid3
+-------------------------------------
+def desenha_linha(qtd):
+   
+    if qtd // 1 == qtd:
+        print()
+        for i in range(qtd):
+            print("=", end='')
+
+        print()
+
+    else:
+        print("\nValor inválido")
+
+
+qtd = float(input("Digite a quantidade de sinais '=' que serão mostrados na tela: "))
+
+desenha_linha(qtd)
+
+
+qtd = float(input("Digite a quantidade de sinais '=' que serão mostrados na tela: "))
+print(qtd)
+#print(type(qtd))
+qtd= (qtd // 1 == qtd)
+print(qtd)
