@@ -1,5 +1,371 @@
  
  
+ psql -U postgres -h ip_do_banco nome_do_banco < c:\autosystem\indices.sql
+ psql -U postgres -h ip_do_banco nome_do_banco < /home/gerinformg/Indice/indices.sql
+ 
+ 
+ 13.1.0.46 autosystem
+ 1.1.2.1 pdv1 e => entrada
+ 3.2.14 dep carrt => saida
+ 28705961
+ 28705960
+ 
+ 28726413
+ 
+ # Empresa....: AUTO POSTO RIO DOCE LTDA
+
+890.600.620-94
+# Empresa....: LESTE LUBRIFICANTES E COMBUSTIVEIS LTDA
+# CNPJ.......: 01.673.694/0001-90
+
+
+# CNPJ.......: 00.401.537/0001-63
+
+037991173044
+rogerio
+
+ 31 3817 2778
+ 989784894
+ Adriana
+ 3732718223
+03138341330
+ 
+19848233001653
+POSTO CAXUXA BIQUINHAS
+3E4FWWBNRVI0DI4Q
+ 
+Se a conexão com a <b>internet está ativa</b>.                                         
+<b>Sefaz.exe</b> consta na pasta de instalação do sistema.                        
+Se existem bloqueios como <b>Firewall, Proxy</b> e <b>Antivírus</b>.                 
+<b>Consultar disponibilidade</b> do SEFAZ na página da fazenda nacional.
+2023-09-13 15:44:09: AS 5196: DEBUG: NF-e: Traceback (most recent call last):
+  File "fiscal/nfe_processamento.py", line 263, in processar_lote
+  File "classe/nfe_webservice.py", line 747, in consulta_recibo
+  File "classe/nfe_webservice.py", line 629, in _ws_call
+NFEIndexErrorException: <b><big>Não foi possível obter retorno do SEFAZ!</big></b>                             
+
+Para que a comunicação seja estabelecida, verifique:                       
+
+Se a conexão com a <b>internet está ativa</b>.                                         
+<b>Sefaz.exe</b> consta na pasta de instalação do sistema.                        
+Se existem bloqueios como <b>Firewall, Proxy</b> e <b>Antivírus</b>.                 
+<b>Consultar disponibilidade</b> do SEFAZ na página da fazenda nacional.
+
+
+
+ 
+ 037 9 98363088
+ fabiola
+ 5929
+ 6929
+ 
+ 
+ antonio@informinas.com.br
+ 
+ taskkill /F /IM calc.exe
+ 009.147.982
+ 2
+ H U TRANSPORTE RODOVIARIO LTD
+ 
+ 10234413]]]
+ 
+ 
+ tun0: flags=4305<UP,POINTOPOINT,RUNNING,NOARP,MULTICAST>  mtu 1500
+        inet 13.0.0.64  netmask 255.255.255.255  destination 13.0.0.63
+        inet6 fe80::b77b:527c:4be9:8335  prefixlen 64  scopeid 0x20<link>
+        unspec 00-00-00-00-00-00-00-00-00-00-00-00-00-00-00-00  txqueuelen 100  (UNSPEC)
+        RX packets 1493  bytes 125376 (125.3 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1526  bytes 126960 (126.9 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+root@srv-rex-matriz:~# su postgres
+postgres@srv-rex-matriz:/root$ psql -l
+could not change directory to "/root": Permission denied
+Password:
+psql: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  password authentication failed for user "postgres"
+postgres@srv-rex-matriz:/root$ psql -l
+could not change directory to "/root": Permission denied
+Password:
+                              List of databases
+    Name    |  Owner   | Encoding  | Collate | Ctype |   Access privileges
+------------+----------+-----------+---------+-------+-----------------------
+ autosystem | postgres | SQL_ASCII | C       | C     |
+ postgres   | postgres | SQL_ASCII | C       | C     |
+ template0  | postgres | SQL_ASCII | C       | C     | =c/postgres          +
+            |          |           |         |       | postgres=CTc/postgres
+ template1  | postgres | SQL_ASCII | C       | C     | =c/postgres          +
+            |          |           |         |       | postgres=CTc/postgres
+(4 rows)
+
+
+
+04/09 t 2
+
+BAIXA DE MAQ GETNET SANTANDER CREDITO
+--------------------------------------
+38257608000179
+pedro
+não imprime aferição 
+petrolandia
+----------------------------------
+ carmoplois
+ antonio
+ tef
+ 
+ 9971464366
+ 
+ frank
+ ricardo
+ 995591458
+ 
+45646546546
+ cartoes_autorizados=B3280909779DF740;B3280909779D8F27;B3280909779D7D92;B328090977D21D14;B3280909779DD5FF;B3280909779D00C1;B3280909779D26C1;B3280909779DD987;B3280909779D5592
+ 
+ Para configurar as permissões de usuário acesse o menu Configurações > Usuários > Grupos de Usuários > guia Configurações. A permissão que deve ser alterada é do tópico Predeterminação de Preço, que pode ser localizado em Cadastros > Predeterminação de Preço.
+ 
+ # Empresa....: GRAFER COMERCIAL LTDA
+# CNPJ.......: 01.021.870/0001-00
+# UF.........: MG
+# TAG........: 
+# Nr Serie...: JEKH-LLHG-FEKL-CHBG
+# Estacao....: PDV
+# Versao key.: 2.0
+
+ 
+ 
+ 201.51.244.161
+ camerabia.ddns.net
+ admin
+ Bi@R@s@47
+ 
+ su&guto2110
+ biarosa
+ 
+ 11236240
+ 533501
+ 2168471,480 final 14/08
+ 
+ 362815
+ 4629290.77
+ 
+ 21061742000105
+ bianca
+ encerrante
+ 
+ 
+ 
+ SAO SEBASTIAO
+ EVA
+ 31984227253
+ 257500680001-19
+ 1432170607
+ b2kq8kwr
+ 
+ 
+ Resgate de pontos:
+ insert into ponto (ponto, hora, cartao_fidelidade, operacao, pessoa_simples)
+values (1980, '2019-05-01', 18393718, 'P', 15484050);
+70.49
+39
+40
+
+Nome: Elisthéfany
+Motivo do contato: Não consigo acessar o sistema
+01321096000152
+Telefone: 38998898490
+E-mail: ass.crediario@grupocomac.com
+
+26685518898
+414292 ronaldo
+
+
+select grid,* from cartao_fidelidade where pessoa='15484050'  //cart fidelidade='18393718'
+ select cpf, * from pessoa where grid='15484050'              // cpf='05999761603'
+ select * from movto where documento='11387' and data='2019-07-23'
+ 
+ 1
+ 0,01
+ 
+ linx.png
+ linx_resized.png
+ linxmono.png
+ linxresized.png
+ logo_fatura.png
+ logo_linx.png
+ nfe.png
+ 
+ 26685518898
+ 
+ 64,23
+ 64,10
+ 
+ 
+ 4c2bab95
+ 13.0.0.86
+ Andre09:48
+O programa de comanda não quer abrir, diz que o PC não está configurado para está estação09:49
+428537130001-4809:49
+(38) 9 9993-724409:50
+restaurante.claudinescarpenedo@gmail.com
+
+37999092920
+wenderson
+quati
+fidelidade
+ 
+ 
+ 533501
+ DESKTOP-761L2BE
+ rede exata
+ 33 9 9158 3400
+ team : 929723280 / h2vcp4tg
+ 
+ 
+  Empresa....: PSA COMBUSTIVEIS
+# CNPJ.......: 07.197.910/0001-55
+# UF.........: MG
+# TAG........: 
+# Nr Serie...: IGBK-JORK-KGDJ-PQQQ
+# Estacao....: SERVIDOR
+# Versao key.: 2.0
+
+norma
+lmc
+ 158920760595
+ 158920759982
+ 149899
+ 158920759982
+ 10236134
+ 158920760591
+10236134
+ vale verde matozinhos
+ 971052589
+ aprova nota modelo 55
+ uso consumo
+ viviane
+ 
+ oceano
+ valdemir 
+ emissão de nota serviço
+ 992711468
+ 08401243000143
+ V001A70AC9A6D88356A7CFDA4DDCB09C4AA5BB
+ 
+ Maria
+Verificar abastecimento duplicado
+18935742000174
+35-984221069
+contato@postonovorio.com.br
+Id 1376161364
+senha 7fx6ej26
+
+ 323351,49
+ 323356,11
+ 
+ 
+ 30/08/2023 07:43:38
+ 4,62
+ 30
+ 56
+ 
+ 286585
+ 
+ 485489440
+ FRANCIELE
+EXCLUSÃO DE BAIXA
+ 20813275000151
+38 988196797
+ financeiro.faturamento@postomardoce.com.br
+ 18900044
+    47252587498
+	12408338
+	47252585720
+	227NFA8Q0787
+	2267FA8J8417
+	227CFA8P3555
+	
+	
+	# Empresa....: POSTO D ANGELIS LTDA
+# CNPJ.......: 23.174.519/0005-15
+# UF.........: MG
+# TAG........: D'ANGELIS
+# Nr Serie...: IJEJ-LHKN-JPMI-JRRH
+# Estacao....: MID-E
+# Versao key.: 2.0
+
+	
+	Nome:  Jessica
+Motivo do contato: erro ao lançar medidas
+CNPJ: 25.750.068/0003-80
+Telefone: 31971548323
+
+19.848.233/0009-24
+sincronia
+cristiano
+
+	
+	
+	santander 3504/13003566-6 DII
+	
+	
+	Sufixo DNS específico de conexão. . . . . . :
+   Endereço IPv6 de link local . . . . . . . . : fe80::1caf:c32f:ac26:670%12
+   Endereço IPv4. . . . . . . .  . . . . . . . : 192.168.2.93
+   Máscara de Sub-rede . . . . . . . . . . . . : 255.255.255.0
+   Gateway Padrão. . . . . . . . . . . . . . . : 192.168.2.253
+ 10.83.83.2
+ Disparando 192.168.0.254 com 32 bytes de dados:
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+
+Disparando 192.168.0.254 com 32 bytes de dados:
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+
+
+Disparando 192.168.0.254 com 32 bytes de dados:
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+Resposta de 192.168.0.254: bytes=32 tempo=34ms TTL=62
+ 
+ 
+ 754986596
+ calculando a margem de lucro baseada no custo dos produtos
+ 7892840816773
+ 7892840816773
+ luco total / .
+ 7471
+ codigo_barra
+ 35991422941
+ 18952841
+ 6667
+ 202311965334-3
+ nota cancelado no siare, protocolo 202311965334-3
+ 2979
+ 55
+ 23/08
+ 001
+ CLAUDIO ANCANO LOSCHI E OUTROS
+ 5355
+ 28900,00
+ 
+ 8594622987
+ 
+ 1087835 65 
+ 1858,91
+ 459310
+ 1858,91
+ 001
+ 2508
+ 
+ TERMINAL RESTAURANTE
+ 
  459199
  11044
  11050
